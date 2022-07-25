@@ -1,5 +1,7 @@
 import express from 'express'
 import cors from 'cors'
+import bodyParser from 'body-parser'
+
 import routes from './src/routes/setupRoutes.js'
 
 const port = process.env.port || 3000
